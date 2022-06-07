@@ -2,6 +2,8 @@ body {
   background: #ddd;
   color: #222;
   font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 ol, ul, li, p, h1, h2, h3, h4 {
@@ -9,7 +11,27 @@ ol, ul, li, p, h1, h2, h3, h4 {
   margin: 0;
 }
 
-a {
+
+section.wrap{
+  padding: 2rem 3rem;
+
+}
+
+section.video{
+  background-color: #000;
+  height: 100vh;
+}
+
+article.flex{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  outline: 1px solid red;
+}
+
+
+
+.cta {
   text-decoration: none;
   font-size: 0.95rem;
   font-weight: 400;
@@ -20,17 +42,13 @@ a {
   display: inline-block;
 }
 
-section.wrap{
-  max-width: 500px;
-  margin: auto;
-  padding: 2rem 2rem 3rem 2rem;
-}
+
 
 
 .h1 {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 550;
-  line-height: 2.32rem;
+  line-height: 2rem;
   letter-spacing: -0.04rem;
   }
 
@@ -51,7 +69,6 @@ section.wrap{
 .intro {
   font-weight: 550;
 }
-
 
 .h1 + .intro{
   margin-top: 3rem;
