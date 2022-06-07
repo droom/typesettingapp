@@ -18,12 +18,11 @@ section.hero video {
 
 section.pad {
   margin: auto;
-  width: 700px;
-}
-
-.pad {
+  width: 650px;
   padding: 40px;
 }
+
+
 
 ol.chapters {
   list-style: none;
@@ -62,25 +61,11 @@ ol, ul, li {
   margin: 0;
 }
 
-h4 {
-  font-size: 18px;
-  line-height: 25px;
-  font-weight: 600;
-  display: block;
-  margin: 0;
-  padding: 0 0 15px 0;
-}
-
 ul, ol, p {
   font-size: 18px;
   line-height: 25px;
   font-weight: 400;
   display: block;
-}
-
-li {
-  margin: 0;
-  padding: 0;
 }
 
 .h1 {
@@ -97,13 +82,16 @@ li {
 }
 
 .h4 {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 600;
+  display: block;
+  /*margin: 0;*/
   margin: 2rem 0 0 0;
+  padding: 0 0 15px 0;
 }
 
-section.cta {
-  background: #000;
-  color: #fff;
-}
+
 
 a {
   text-decoration: none;
@@ -117,6 +105,12 @@ section.hero p {
   color: white;
   padidng: 40px 0;
   margin: 0 40px;
+}
+
+
+section.cta {
+  background: #000;
+  color: #fff;
 }
 
 .cta {
