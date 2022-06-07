@@ -1,126 +1,83 @@
 body {
-  background: #eee;
+  background: #ddd;
+  color: #222;
   font-family: "Inter", sans-serif;
 }
 
-ol, ul, li {
+ol, ul, li, p, h1, h2, h3, h4 {
   padding: 0;
   margin: 0;
 }
 
-section.hero {
-  background: #000;
-  overflow: hidden;
-  width: 100vw;
-  height: 100vh;
-}
-
-section.hero video {
-  width: 100vw;
-  height: 100wh;
-  outline: 1px solid red;
-}
-
-section.pad {
-  max-width: 600px;
-  margin: auto;
-  padding: 40px;
-}
-
-
-
-
-
-
-ol.chapters {
-  list-style: none;
-  counter-reset: my-awesome-counter;
-}
-
-ol.chapters li {
-  counter-increment: my-awesome-counter;
-}
-
-ol.chapters li::before {
-  content: counter(my-awesome-counter);
-}
-
-ol.chapter-3 li::before,
-ol.chapters li::before {
+a {
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: #fff;
+  background: #333333;
+  padding: 0.6rem 0.9rem;
+  border-radius: 3px;
   display: inline-block;
-  min-width: 45px;
 }
 
-ol.chapter-3 {
-  list-style: none;
-  counter-reset: my-awesome-counter;
-}
-
-ol.chapter-3 li {
-  counter-increment: my-awesome-counter;
-}
-
-ol.chapter-3 li::before {
-  content: "3." counter(my-awesome-counter) " ";
+section.wrap{
+  max-width: 500px;
+  margin: auto;
+  padding: 2rem 2rem 3rem 2rem;
 }
 
 
-ul, ol, p {
-  font-size: 18px;
-  line-height: 25px;
+.h1 {
+  font-size: 2rem;
+  font-weight: 550;
+  line-height: 2.32rem;
+  letter-spacing: -0.04rem;
+  }
+
+.h2, .h3 {
+  font-size: 1rem;
+  line-height: 1.35rem;
+  font-weight: 550;
+  display: block;
+}
+
+.copy {
+  font-size: 1rem;
+  line-height: 1.35rem;
   font-weight: 400;
   display: block;
 }
 
-.h1 {
-  font-size: 2.65rem;
-  line-height: 3rem;
+.intro {
   font-weight: 550;
-  margin: 0 0 70px 0;
-}
-
-.h3 {
-  font-size: 30px;
-  line-height: 35px;
-  font-weight: 500;
-}
-
-.h4 {
-  font-size: 18px;
-  line-height: 25px;
-  font-weight: 600;
-  display: block;
-  /*margin: 0;*/
-  margin: 2rem 0 0 0;
-  padding: 0 0 15px 0;
 }
 
 
-
-a {
-  text-decoration: none;
-  color: #333;
-  color: #fff;
-  background: #333333;
-  background: linear-gradient(180deg, rgba(51, 51, 51, 0) 85%, #333333 85%, #333333 89%, rgba(0, 0, 0, 0) 89%);
-}
-
-section.hero p {
-  color: white;
-  padidng: 40px 0;
-  margin: 0 40px;
+.h1 + .intro{
+  margin-top: 3rem;
 }
 
 
-section.cta {
-  background: #000;
-  color: #fff;
+.intro + .h3{
+  margin-top: 3rem;
 }
 
-.cta {
-  background: #000;
-  margin: 15px 0;
-  padding: 10px 15px;
-  display: inline-block;
-  border-radius: 5px;
+.h3 + .chapter{
+  margin-top: 1rem;
+}
+
+.chapter + .h2{
+  margin-top: 3rem;
+}
+
+.chapter + .h3{
+  margin-top: 2rem;
+}
+
+.h3 + .h2{
+  margin-top: 1.5rem;
+}
+
+.h2 + .cta{
+  margin-top: 1.5rem;
 }
