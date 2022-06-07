@@ -3,6 +3,11 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+ol, ul, li {
+  padding: 0;
+  margin: 0;
+}
+
 section.hero {
   background: #000;
   overflow: hidden;
@@ -17,10 +22,13 @@ section.hero video {
 }
 
 section.pad {
+  max-width: 600px;
   margin: auto;
-  width: 650px;
   padding: 40px;
 }
+
+
+
 
 
 
@@ -56,10 +64,6 @@ ol.chapter-3 li::before {
   content: "3." counter(my-awesome-counter) " ";
 }
 
-ol, ul, li {
-  padding: 0;
-  margin: 0;
-}
 
 ul, ol, p {
   font-size: 18px;
