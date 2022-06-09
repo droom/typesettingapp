@@ -1,5 +1,4 @@
 .h1 {
-  /*font-family: 'Test Domaine Display Narrow';*/
   font-family: 'Playfair Display', serif;
   font-size: 2.5rem;
   font-weight: 500;
@@ -14,9 +13,25 @@
 
 .copy {
   font-size: 1rem;
-  line-height: 1.4rem;
+  line-height: 1.45rem;
   font-weight: 400;
-  /*display: block;*/
+}
+
+.label{
+  display: block;
+  font-weight: 800;
+  font-variant-caps: small-caps;
+  letter-spacing: 0.2rem;
+  margin: 0 auto 0.5rem auto;
+  text-align: center;
+}
+
+.red{
+  color: #FF7B4E;
+}
+
+.faint{
+  opacity: 0.8;
 }
 
 .intro {
@@ -27,12 +42,21 @@
 
 .h3,
 .chapter{
-  max-width: 400px;
   max-width: 375px;
-  text-align: center;
   margin: auto;
 }
 
 .center{
   text-align: center;
+}
+
+.item{
+  list-style: none;
+  font-style: italic;
+}
+
+.item:before,
+.item:after{
+  content: " — ";
+  color: #FF7B4E;
 }
