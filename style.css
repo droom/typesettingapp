@@ -1,94 +1,143 @@
 body {
-  background: #ddd;
-  color: #222;
-  font-family: "Inter", sans-serif;
+  background: #F8F6F2;
+  color: #1E2102;
+  font-family: 'Playfair Display', serif;
   margin: 0;
   padding: 0;
 }
+
 
 ol, ul, li, p, h1, h2, h3, h4 {
   padding: 0;
   margin: 0;
 }
 
-
-section.wrap{
-  padding: 2rem 3rem;
-
+ol li{
+  list-style: none;
+  font-style: italic;
 }
 
-section.video{
-  background-color: #000;
+ol li:before,
+ol li:after{
+  content: "—";
+  color: #FF7B4E;
+  /*font-style: italic;*/
+}
+
+
+section.wrap{
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+section.wrap div{
+  align-items: stretch;
+  padding: 20px 30px;
+}
+
+section.wrap div:nth-child(1){
+  flex-grow: 1; 
+  margin: 30px auto 0;
+}
+
+section.wrap div:nth-child(2){
+  flex-grow: 1; 
+}
+
+section.wrap div:nth-child(3){
+  flex-grow: 1; 
+}
+
+
+
+
+section.wrap div:nth-child(4){
+  margin: 0 auto 30px;
+}
+
+article.main{
+  display: flex;
+  outline: 1px solid red;
   height: 100vh;
 }
 
-article.flex{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  outline: 1px solid red;
+section.video{
+  height: 100vh;
+  width: 50vw;
+  align-items: center;
+  display: flex;
 }
 
+section.video div{
+  margin: auto;
+  width: 47vw;
+  background: #2F3404;
+  height: 95vh;
+  margin: auto;
+  display: flex;
+  border-radius: 20px;
+
+}
+
+
+video{
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  mix-blend-mode: plus-lighter;
+}
 
 
 .cta {
   text-decoration: none;
-  font-size: 0.95rem;
+  font-size: 1.25rem;
   font-weight: 400;
   color: #fff;
-  background: #333333;
-  padding: 0.6rem 0.9rem;
-  border-radius: 3px;
+  background: #BB4922;
+  /*padding: 0.6rem 1rem 0.7rem;*/
+  padding: 0.6rem 2rem 0.8rem;
+
+  border-radius: 25px;
   display: inline-block;
+  transition: all 400ms ease;
+  /*margin: 30px 0;*/
 }
 
 
 
 
-.h1 {
-  font-size: 1.75rem;
-  font-weight: 550;
-  line-height: 2rem;
-  letter-spacing: -0.04rem;
-  }
+.cta:hover{
+  color: #2F3404;
+  background: #FF7B4E;
+}
 
-.h2, .h3 {
-  font-size: 1rem;
-  line-height: 1.35rem;
-  font-weight: 550;
+
+
+
+
+.label{
+  text-align: center;
+  margin: 0 auto 0.5rem auto;
+  align-self: center;
+  width: 100%;
   display: block;
+  font-variant-caps: small-caps;
+  letter-spacing: 0.2rem;
+  font-weight: 800;
+  color: #FF7B4E;
+
 }
 
-.copy {
-  font-size: 1rem;
-  line-height: 1.35rem;
-  font-weight: 400;
-  display: block;
-}
-
-.intro {
-  font-weight: 550;
-}
-
-.h1 + .intro{
-  margin-top: 3rem;
-}
 
 
 .intro + .h3{
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .h3 + .chapter{
   margin-top: 1rem;
-}
-
-.chapter + .h2{
-  margin-top: 3rem;
-}
-
-.chapter + .h3{
-  margin-top: 2rem;
 }
 
 .h3 + .h2{

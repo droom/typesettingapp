@@ -1,0 +1,38 @@
+.center{
+  text-align: center;
+}
+
+.h1 {
+  /*font-family: 'Test Domaine Display Narrow';*/
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 2.6rem;
+  }
+
+.h2, .h3 {
+  font-size: 1rem;
+  line-height: 1.35rem;
+  font-weight: 550;
+}
+
+.copy {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  font-weight: 400;
+  /*display: block;*/
+}
+
+.intro {
+  font-weight: 550;
+  max-width: 375px;
+  margin: auto;
+}
+
+.h3,
+.chapter{
+  max-width: 400px;
+  max-width: 375px;
+  text-align: center;
+  margin: auto;
+}
