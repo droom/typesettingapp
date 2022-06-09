@@ -1,6 +1,7 @@
 body {
   background:   #F8F6F2;
   color:        #1E2102;
+  color:        #2F3404;
   font-family: 'Playfair Display', serif;
   }
 
@@ -17,11 +18,6 @@ section.type{
   height:         100vh;
   width:          50vw;
   }
-
-section.type,
-section.hero{
-  /*transition: all 200ms ease;*/
-}
 
 section.type div{
   padding:      20px 30px;
@@ -109,16 +105,31 @@ video{
   }
 }
 
-@media (max-width: 550px){
+@media (max-width: 600px){
+  body{
+    background: #2F3404;
+  }
   section.type div:nth-child(3){
     display:  block;
   }
   section.type{
-    width: 100vw;
+    width: 95vw;
+    /*height: calc(initial)-100px;*/
+    /*height: calc(100% - 100px);*/
+    height: auto;
+
+
+    overflow: auto;
+    /*height: auto-flow;*/
+    background:   #F8F6F2;
+    margin: 12px auto;
+    border-radius: 10px;
   }
   section.hero{
     width: 0vw;
-    /*display: none;*/
+  }
+  section.type div:nth-child(4){
+    margin: 0 auto 50px;
   }
 
 }

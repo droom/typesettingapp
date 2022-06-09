@@ -40,7 +40,7 @@
   margin: auto;
 }
 
-.h3,
+.intro,
 .chapter{
   max-width: 375px;
   margin: auto;
@@ -61,13 +61,22 @@
   color: #FF7B4E;
 }
 
-
-/*::-moz-selection { 
-  color: red;
-  background: yellow;
-}*/
-
 ::selection {
   color: #FF7B4E;
   background: white;
 }
+
+
+@media (max-width: 600px){
+  .h1 {
+    /*font-family: 'Playfair Display', serif;*/
+    font-size: 2.35rem;
+    line-height: 2.5rem;
+    }
+
+  .intro,
+  .chapter{
+    max-width: 300px;
+    margin: auto;
+  }
+  }
