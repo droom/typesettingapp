@@ -2,7 +2,7 @@
   font-family: 'Playfair Display', serif;
   font-size: 2.5rem;
   font-weight: 500;
-  line-height: 2.6rem;
+  line-height: 2.65rem;
   }
 
 .h2, .h3 {
@@ -59,4 +59,15 @@
 .item:after{
   content: " — ";
   color: #FF7B4E;
+}
+
+
+/*::-moz-selection { 
+  color: red;
+  background: yellow;
+}*/
+
+::selection {
+  color: #FF7B4E;
+  background: white;
 }
