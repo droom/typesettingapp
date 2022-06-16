@@ -108,15 +108,16 @@ video{
     background: #2F3404;
   }
   section.type div:nth-child(3){
-    display:  block;
+    display:    block;
   }
   section.type{
-    width: 95vw;
-    height: auto;
-    overflow: auto;
-    background:   #F8F6F2;
-    margin: 12px auto;
-    border-radius: 10px;
+    width:      100vw;
+    height:     auto;
+    overflow:   auto;
+    background: #F8F6F2;
+    margin:     0 auto;
+    /*border: 10px solid #2F3404;*/
+    /*border-radius: 10px;*/
   }
   section.hero{
     width: 0vw;

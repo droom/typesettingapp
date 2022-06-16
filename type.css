@@ -1,81 +1,63 @@
 .h1 {
-  /*font-family: Arial, 'Playfair Display', serif;*/
-  font-size: 2.5rem;
-  /*font-weight: 500;*/
-  line-height: 2.65rem;
+  font-size:      2.5rem;
+  line-height:    2.65rem;
   }
 
 .h2, .h3 {
-  font-size: 1rem;
-  line-height: 1.35rem;
-  /*font-weight: 550;*/
+  font-size:      1rem;
+  line-height:    1.35rem;
 }
 
 .copy {
-  font-size: 1rem;
-  line-height: 1.45rem;
-  /*font-weight: 400;*/
+  font-size:      1rem;
+  line-height:    1.45rem;
 }
 
 .label{
-  display: block;
-  /*font-weight: 800;*/
-  /*font-variant-caps: small-caps;*/
+  display:        block;
   letter-spacing: 0.2rem;
-  margin: 0 auto 0.5rem auto;
-  text-align: center;
+  margin:         0 auto 0.5rem auto;
+  text-align:     center;
 }
 
 .red{
-  color: #FF7B4E;
+  color:          #FF7B4E;
 }
-
 .faint{
-  opacity: 0.8;
+  opacity:        0.8;
 }
-
-/*.intro {*/
-  /*font-weight: 550;*/
-  /*max-width: 375px;*/
-  /*margin: auto;*/
-/*}*/
-
 .intro,
 .chapter{
-  max-width: 375px;
-  margin: auto;
+  max-width:      375px;
+  margin:         auto;
 }
-
 .center{
-  text-align: center;
+  text-align:     center;
 }
-
 .item{
-  list-style: none;
-  /*font-style: italic;*/
+  list-style:     none;
 }
-
 .item:before,
 .item:after{
-  content: " — ";
-  color: #FF7B4E;
+  content:        " — ";
+  color:          #FF7B4E;
 }
 
 ::selection {
-  color: #FF7B4E;
-  background: white;
+  color:          #FF7B4E;
+  background:     rgba(255,255,255,0.8);
 }
 
 
 @media (max-width: 600px){
   .h1 {
-    font-size: 2.35rem;
-    line-height: 2.5rem;
+    font-size:    2.35rem;
+    line-height:  2.5rem;
     }
 
   .intro,
   .chapter{
-    max-width: 300px;
-    margin: auto;
+    max-width:    300px;
+    margin:       auto;
   }
   }

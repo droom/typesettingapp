@@ -151,30 +151,13 @@
 
 
 .h1, .h2, .h3 {
-  /*font-family: 'test-tiempos-fine-semibold', sans-serif;*/
-  /*font-family: 'test-tiempos-fine-semibold-italic', sans-serif;*/
-  font-family: 'test-tiempos-fine-regular', sans-serif;
-  /*font-family: 'test-tiempos-fine-regular-italic', sans-serif;*/
-  font-family: 'test-tiempos-fine-medium', sans-serif;
-  /*font-family: 'test-tiempos-fine-medium-italic', sans-serif;*/
-  font-family: 'test-tiempos-fine-light', sans-serif;
-  /*font-family: 'test-tiempos-fine-light-italic', sans-serif;*/
-  /*font-family: 'test-tiempos-fine-bold', sans-serif;*/
-  /*font-family: 'test-tiempos-fine-bold-italic', sans-serif;*/
-  /*font-family: 'test-tiempos-fine-black', sans-serif;*/
-  /*font-family: 'test-tiempos-fine-black-italic', sans-serif;*/
-  font-family: 'test-tiempos-headline-semibold', sans-serif;
-  /*font-family: 'test-tiempos-headline-semibold-italic', sans-serif;*/
+  /*font-family: 'test-tiempos-fine-regular', sans-serif;*/
+  /*font-family: 'test-tiempos-fine-medium', sans-serif;*/
+  /*font-family: 'test-tiempos-fine-light', sans-serif;*/
+  /*font-family: 'test-tiempos-headline-semibold', sans-serif;*/
   font-family: 'test-tiempos-headline-regular', sans-serif;
-  /*font-family: 'test-tiempos-headline-regular-italic', sans-serif;*/
-  font-family: 'test-tiempos-headline-medium', sans-serif;
-  /*font-family: 'test-tiempos-headline-medium-italic', sans-serif;*/
-  font-family: 'test-tiempos-headline-light', sans-serif;
-  /*font-family: 'test-tiempos-headline-light-italic', sans-serif;*/
-  /*font-family: 'test-tiempos-headline-bold', sans-serif;*/
-  /*font-family: 'test-tiempos-headline-bold-italic', sans-serif;*/
-  /*font-family: 'test-tiempos-headline-black', sans-serif;*/
-  /*font-family: 'test-tiempos-headline-black-italic', sans-serif;*/
+  /*font-family: 'test-tiempos-headline-medium', sans-serif;*/
+  /*font-family: 'test-tiempos-headline-light', sans-serif;*/
 }
 
 .copy {
