@@ -32,39 +32,39 @@ section.type div:nth-child(2){
 
 
 section.type div:nth-child(3){
-  flex-grow: 1; 
+  flex-grow:    1; 
 }
 
 section.type div:nth-child(4){
-  margin: 0 auto 30px;
+  margin:       0 auto 30px;
 }
 
 article.wrap{
-  display: flex;
-  height: 100vh;
+  display:      flex;
+  height:       100vh;
 }
 
 section.hero{
-  height: 100vh;
-  width: 50vw;
-  align-items: center;
-  display: flex;
+  height:       100vh;
+  width:        50vw;
+  align-items:  center;
+  display:      flex;
 }
 
 section.hero div{
-  margin: auto;
-  width: 47vw;
-  background: #2F3404;
-  height: 95vh;
-  margin: auto;
-  display: flex;
-  border-radius: 20px;
+  margin:         auto;
+  width:          47vw;
+  background:     #2F3404;
+  height:         95vh;
+  margin:         auto;
+  display:        flex;
+  border-radius:  20px;
 }
 
 video{
-  width: 100%;
-  max-width: 400px;
-  margin: auto;
+  width:          100%;
+  max-width:      400px;
+  margin:         auto;
   mix-blend-mode: plus-lighter;
 }
 
@@ -76,7 +76,8 @@ video{
   text-decoration: none;
   font-size: 1.25rem;
   color: #2F3404;
-  background: #FF7B4E;
+  /*background: #FF7B4E;*/
+  background: #fe946f;
   padding: 0.6rem 2rem 0.8rem;
   border-radius: 25px;
   display: inline-block;
