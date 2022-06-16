@@ -123,9 +123,9 @@
   /*font-family: 'tiempos-text-bold-italic';*/
   /*font-family: 'tiempos-text-bold';*/
   /*font-family: 'tiempos-text-medium-italic';*/
-  /*font-family: 'tiempos-text-medium';*/
+  font-family: 'tiempos-text-medium';
   /*font-family: 'tiempos-text-regular-italic';*/
-  /*font-family: 'tiempos-text-regular';*/
-  font-family: 'tiempos-text-semibold-italic', sans-serif;
-  /*font-family: 'tiempos-text-semibold';*/
+  font-family: 'tiempos-text-regular';
+  /*font-family: 'tiempos-text-semibold-italic', sans-serif;*/
+  font-family: 'tiempos-text-semibold';
 }
