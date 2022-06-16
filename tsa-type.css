@@ -155,10 +155,9 @@
 }
 
 .h1-italic {
-  font-family: 'test-tiempos-headline-regular-italic', sans-serif;
+  /*font-family: 'test-tiempos-headline-regular-italic', sans-serif;*/
+  font-family: 'test-tiempos-headline-light-italic', sans-serif;
 }
-
-
 
 .copy {
   font-family: 'tiempos-text-regular', sans-serif;
