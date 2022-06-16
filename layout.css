@@ -114,13 +114,8 @@ video{
   }
   section.type{
     width: 95vw;
-    /*height: calc(initial)-100px;*/
-    /*height: calc(100% - 100px);*/
     height: auto;
-
-
     overflow: auto;
-    /*height: auto-flow;*/
     background:   #F8F6F2;
     margin: 12px auto;
     border-radius: 10px;

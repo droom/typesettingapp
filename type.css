@@ -1,5 +1,5 @@
 .h1 {
-  font-family: 'Playfair Display', serif;
+  /*font-family: Arial, 'Playfair Display', serif;*/
   font-size: 2.5rem;
   font-weight: 500;
   line-height: 2.65rem;
@@ -69,7 +69,6 @@
 
 @media (max-width: 600px){
   .h1 {
-    /*font-family: 'Playfair Display', serif;*/
     font-size: 2.35rem;
     line-height: 2.5rem;
     }
@@ -80,3 +79,53 @@
     margin: auto;
   }
   }
+
+
+
+
+@font-face {
+  font-family: 'tiempos-text-bold-italic';
+  src: url('../tiempos/test-tiempos-text-bold-italic.woff2') format('woff2')
+}
+@font-face {
+  font-family: 'tiempos-text-bold';
+  src: url('../tiempos/test-tiempos-text-bold.woff2') format('woff2')
+}
+@font-face {
+  font-family: 'tiempos-text-medium-italic';
+  src: url('../tiempos/test-tiempos-text-medium-italic.woff2') format('woff2')
+}
+@font-face {
+  font-family: 'tiempos-text-medium';
+  src: url('../tiempos/test-tiempos-text-medium.woff2') format('woff2')
+}
+@font-face {
+  font-family: 'tiempos-text-regular-italic';
+  src: url('../tiempos/test-tiempos-text-regular-italic.woff2') format('woff2')
+}
+@font-face {
+  font-family: 'tiempos-text-regular';
+  src: url('../tiempos/test-tiempos-text-regular.woff2') format('woff2')
+}
+@font-face {
+  font-family: 'tiempos-text-semibold-italic';
+  src: url('../tiempos/test-tiempos-text-semibold-italic.woff2') format('woff2')
+}
+@font-face {
+  font-family: 'tiempos-text-semibold';
+  src: url('../tiempos/test-tiempos-text-semibold.woff2') format('woff2')
+}
+
+
+
+
+.h1 {
+  /*font-family: 'tiempos-text-bold-italic';*/
+  /*font-family: 'tiempos-text-bold';*/
+  /*font-family: 'tiempos-text-medium-italic';*/
+  /*font-family: 'tiempos-text-medium';*/
+  /*font-family: 'tiempos-text-regular-italic';*/
+  /*font-family: 'tiempos-text-regular';*/
+  font-family: 'tiempos-text-semibold-italic', sans-serif;
+  /*font-family: 'tiempos-text-semibold';*/
+}
