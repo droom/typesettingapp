@@ -1,26 +1,26 @@
 .h1 {
   /*font-family: Arial, 'Playfair Display', serif;*/
   font-size: 2.5rem;
-  font-weight: 500;
+  /*font-weight: 500;*/
   line-height: 2.65rem;
   }
 
 .h2, .h3 {
   font-size: 1rem;
   line-height: 1.35rem;
-  font-weight: 550;
+  /*font-weight: 550;*/
 }
 
 .copy {
   font-size: 1rem;
   line-height: 1.45rem;
-  font-weight: 400;
+  /*font-weight: 400;*/
 }
 
 .label{
   display: block;
-  font-weight: 800;
-  font-variant-caps: small-caps;
+  /*font-weight: 800;*/
+  /*font-variant-caps: small-caps;*/
   letter-spacing: 0.2rem;
   margin: 0 auto 0.5rem auto;
   text-align: center;
@@ -34,11 +34,11 @@
   opacity: 0.8;
 }
 
-.intro {
-  font-weight: 550;
-  max-width: 375px;
-  margin: auto;
-}
+/*.intro {*/
+  /*font-weight: 550;*/
+  /*max-width: 375px;*/
+  /*margin: auto;*/
+/*}*/
 
 .intro,
 .chapter{
@@ -52,7 +52,7 @@
 
 .item{
   list-style: none;
-  font-style: italic;
+  /*font-style: italic;*/
 }
 
 .item:before,

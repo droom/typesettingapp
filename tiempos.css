@@ -199,6 +199,17 @@
   font-family: 'tiempos-text-semibold', sans-serif;
 }
 
+.cta {
+  font-family: 'tiempos-text-bold-italic', sans-serif;
+  font-family: 'tiempos-text-bold', sans-serif;
+  font-family: 'tiempos-text-medium-italic', sans-serif;
+  font-family: 'tiempos-text-medium', sans-serif;
+  font-family: 'tiempos-text-regular-italic', sans-serif;
+  font-family: 'tiempos-text-regular', sans-serif;
+  font-family: 'tiempos-text-semibold-italic', sans-serif;
+  font-family: 'tiempos-text-semibold', sans-serif;
+}
+
 
 .label{
   font-family: 'tiempos-text-bold-italic', sans-serif;
