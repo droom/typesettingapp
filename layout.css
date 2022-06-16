@@ -116,8 +116,6 @@ video{
     overflow:   auto;
     background: #F8F6F2;
     margin:     0 auto;
-    /*border: 10px solid #2F3404;*/
-    /*border-radius: 10px;*/
   }
   section.hero{
     width: 0vw;

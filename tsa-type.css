@@ -150,10 +150,15 @@
 
 
 
-
 .h1, .h2, .h3 {
   font-family: 'test-tiempos-headline-regular', sans-serif;
 }
+
+.h1-italic {
+  font-family: 'test-tiempos-headline-regular-italic', sans-serif;
+}
+
+
 
 .copy {
   font-family: 'tiempos-text-regular', sans-serif;
@@ -164,22 +169,13 @@
 }
 
 .cta {
-  font-family: 'tiempos-text-regular', sans-serif;
-  font-family: 'tiempos-text-medium', sans-serif;
   font-family: 'tiempos-text-semibold', sans-serif;
-  font-family: 'tiempos-text-bold', sans-serif;
 }
 
 .label{
-  font-family: 'tiempos-text-regular', sans-serif;
-  font-family: 'tiempos-text-medium', sans-serif;
   font-family: 'tiempos-text-semibold', sans-serif;
-  font-family: 'tiempos-text-bold', sans-serif;
   font-variant-caps: all-small-caps;
 }
 
 .ampersand{
-  /*font-family: 'tiempos-text-bold', sans-serif;*/
-  font-family: georgia, Times, "Times New Roman", serif;
-  background: yellow;
 }
