@@ -62,3 +62,63 @@
     margin:       auto;
   }
   }
+
+
+
+/* Text */
+
+@font-face {
+  font-family: 'tiempos-text-regular-italic';
+  src: url('../tiempos/test-tiempos-text-regular-italic.woff2') format('woff2')
+}
+@font-face {
+  font-family: 'tiempos-text-regular';
+  src: url('../tiempos/test-tiempos-text-regular.woff2') format('woff2')
+}
+@font-face {
+  font-family: 'tiempos-text-semibold';
+  src: url('../tiempos/test-tiempos-text-semibold.woff2') format('woff2')
+}
+
+/* Headline */
+
+@font-face {
+  font-family: 'test-tiempos-headline-regular';
+  src: url('../tiempos/test-tiempos-headline-regular.woff2') format('woff2')
+}
+@font-face {
+  font-family: 'test-tiempos-headline-light-italic';
+  src: url('../tiempos/test-tiempos-headline-light-italic.woff2') format('woff2')
+}
+
+
+
+.h1, .h2, .h3 {
+  font-family: 'test-tiempos-headline-regular', sans-serif;
+}
+
+.copy {
+  font-family: 'tiempos-text-regular', sans-serif;
+}
+
+.item {
+  font-family: 'tiempos-text-regular-italic', sans-serif;
+}
+
+.cta {
+  font-family: 'tiempos-text-semibold', sans-serif;
+}
+
+.label{
+  font-family: 'tiempos-text-semibold', sans-serif;
+  font-variant-caps: all-small-caps;
+}
+
+
+/* Unused currently */
+
+.ampersand{
+}
+
+.h1-italic {
+}
