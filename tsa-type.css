@@ -165,7 +165,9 @@
 .cta {
   /*font-family: 'tiempos-text-bold', sans-serif;*/
   /*font-family: 'tiempos-text-regular', sans-serif;*/
-  font-family: 'tiempos-text-semibold', sans-serif;
+  font-family: 'test-tiempos-headline-regular', sans-serif;
+  
+  /*font-family: 'tiempos-text-semibold', sans-serif;*/
 }
 
 .label{
