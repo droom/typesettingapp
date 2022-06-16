@@ -151,54 +151,25 @@
 
 
 .h1, .h2, .h3 {
-  /*font-family: 'test-tiempos-fine-regular', sans-serif;*/
-  /*font-family: 'test-tiempos-fine-medium', sans-serif;*/
-  /*font-family: 'test-tiempos-fine-light', sans-serif;*/
-  /*font-family: 'test-tiempos-headline-semibold', sans-serif;*/
   font-family: 'test-tiempos-headline-regular', sans-serif;
-  /*font-family: 'test-tiempos-headline-medium', sans-serif;*/
-  /*font-family: 'test-tiempos-headline-light', sans-serif;*/
 }
 
 .copy {
-  font-family: 'tiempos-text-medium', sans-serif;
   font-family: 'tiempos-text-regular', sans-serif;
 }
 
 .item {
-  /*font-family: 'tiempos-text-bold-italic', sans-serif;*/
-  /*font-family: 'tiempos-text-bold', sans-serif;*/
-  /*font-family: 'tiempos-text-medium-italic', sans-serif;*/
-  /*font-family: 'tiempos-text-medium', sans-serif;*/
   font-family: 'tiempos-text-regular-italic', sans-serif;
-  /*font-family: 'tiempos-text-regular', sans-serif;*/
-  /*font-family: 'tiempos-text-semibold-italic', sans-serif;*/
-  /*font-family: 'tiempos-text-semibold', sans-serif;*/
 }
 
 .cta {
-  font-family: 'tiempos-text-bold-italic', sans-serif;
-  font-family: 'tiempos-text-bold', sans-serif;
-  font-family: 'tiempos-text-medium-italic', sans-serif;
-  font-family: 'tiempos-text-medium', sans-serif;
-  font-family: 'tiempos-text-regular-italic', sans-serif;
-  font-family: 'tiempos-text-regular', sans-serif;
-  font-family: 'tiempos-text-semibold-italic', sans-serif;
+  /*font-family: 'tiempos-text-bold', sans-serif;*/
+  /*font-family: 'tiempos-text-regular', sans-serif;*/
   font-family: 'tiempos-text-semibold', sans-serif;
 }
 
-
 .label{
-  font-family: 'tiempos-text-bold-italic', sans-serif;
-  font-family: 'tiempos-text-bold', sans-serif;
-  font-family: 'tiempos-text-medium-italic', sans-serif;
-  font-family: 'tiempos-text-medium', sans-serif;
-  font-family: 'tiempos-text-regular-italic', sans-serif;
-  font-family: 'tiempos-text-regular', sans-serif;
-  font-family: 'tiempos-text-semibold-italic', sans-serif;
+  /*font-family: 'tiempos-text-bold', sans-serif;*/
   font-family: 'tiempos-text-semibold', sans-serif;
-
-  /*font-variant-caps: small-caps;*/
-  /*color: blue;*/
   font-variant-caps: all-small-caps;
 }
