@@ -80,28 +80,22 @@
 
 
 
-
 .h1, .h2, .h3 {
-  font-family: 'tiempos-text-regular', sans-serif;
+  font-family: 'tiempos-text-regular', Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
 }
-
 .copy {
-  font-family: 'tiempos-text-regular', sans-serif;
+  font-family: 'tiempos-text-regular', Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
 }
-
 .item{
-  font-family: 'tiempos-text-regular-italic', sans-serif;
+  font-family: 'tiempos-text-regular-italic', Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
 }
-
 .cta {
-  font-family: 'tiempos-text-semibold', sans-serif;
+  font-family: 'tiempos-text-semibold', Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
 }
-
 .label-section{
-  font-family: 'tiempos-text-semibold', sans-serif;
+  font-family: 'tiempos-text-semibold', Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
   font-variant-caps: all-small-caps;
 }
-
 .h1-italic {
-  font-family: 'tiempos-text-regular-italic', sans-serif;
+  font-family: 'tiempos-text-regular-italic', Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
 }
