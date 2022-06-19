@@ -1,7 +1,4 @@
-body {
-  background:   #F8F6F2;
-  color:        #2F3404;
-  }
+/* Layout */
 
 body,
 ol, ul, li, p, 
@@ -83,7 +80,6 @@ video{
   mix-blend-mode: plus-lighter;
 }
 
-
 .intro,
 .chapter,
 .register{
@@ -91,18 +87,18 @@ video{
   margin:         auto;
 }
 
-/* Forms */
+/* Colour */
 
-form.register{
-  text-align: center;
+body {
+  background:   #F8F6F2;
+  color:        #2F3404;
+  }
+.red{
+  color:          #FF7B4E;
 }
-
-form.register .label,
-form.register .input{
-  display: block;
-  text-align: center;
-  margin: auto;
-} 
+.faint{
+  opacity:        0.8;
+}
 
 
 /* Buttons */
@@ -144,7 +140,6 @@ form.register .input{
 .h2 + .cta{
   margin-top: 1.5rem;
 }
-
 
 
 
