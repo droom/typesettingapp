@@ -13,7 +13,7 @@
   line-height:    1.45rem;
 }
 
-.label{
+.label-section{
   display:        block;
   letter-spacing: 0.2rem;
   margin:         0 auto 0.5rem auto;
@@ -27,11 +27,7 @@
 .faint{
   opacity:        0.8;
 }
-.intro,
-.chapter{
-  max-width:      375px;
-  margin:         auto;
-}
+
 .center{
   text-align:     center;
 }
@@ -69,39 +65,40 @@
 
 @font-face {
   font-family: 'tiempos-text-regular-italic';
-  src: url('../tiempos/test-tiempos-text-regular-italic.woff2') format('woff2')
+  src: url('../tiempos/tiempos-text-regular-italic.woff2') format('woff2')
 }
 @font-face {
   font-family: 'tiempos-text-regular';
-  src: url('../tiempos/test-tiempos-text-regular.woff2') format('woff2')
+  src: url('../tiempos/tiempos-text-regular.woff2') format('woff2')
 }
 @font-face {
   font-family: 'tiempos-text-semibold';
-  src: url('../tiempos/test-tiempos-text-semibold.woff2') format('woff2')
+  src: url('../tiempos/tiempos-text-semibold.woff2') format('woff2')
 }
 
 /* Headline */
-
+/*
 @font-face {
-  font-family: 'test-tiempos-headline-regular';
-  src: url('../tiempos/test-tiempos-headline-regular.woff2') format('woff2')
+  font-family: 'tiempos-headline-regular';
+  src: url('../tiempos/tiempos-headline-regular.woff2') format('woff2')
 }
 @font-face {
-  font-family: 'test-tiempos-headline-light-italic';
-  src: url('../tiempos/test-tiempos-headline-light-italic.woff2') format('woff2')
-}
+  font-family: 'tiempos-headline-light-italic';
+  src: url('../tiempos/tiempos-headline-light-italic.woff2') format('woff2')
+}*/
 
 
 
 .h1, .h2, .h3 {
-  font-family: 'test-tiempos-headline-regular', sans-serif;
+  /*font-family: 'tiempos-headline-regular', sans-serif;*/
+  font-family: 'tiempos-text-semibold', sans-serif;
 }
 
 .copy {
   font-family: 'tiempos-text-regular', sans-serif;
 }
 
-.item {
+.item{
   font-family: 'tiempos-text-regular-italic', sans-serif;
 }
 
@@ -109,7 +106,7 @@
   font-family: 'tiempos-text-semibold', sans-serif;
 }
 
-.label{
+.label-section{
   font-family: 'tiempos-text-semibold', sans-serif;
   font-variant-caps: all-small-caps;
 }

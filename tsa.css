@@ -61,12 +61,48 @@ section.hero div{
   border-radius:  20px;
 }
 
+section.video{
+  height:       100vh;
+  width:        100vw;
+  align-items:  center;
+  display:      flex;
+}
+
+section.motion{
+  height:       100vh;
+  width:        100vw;
+  align-items:  center;
+  display:      flex;
+}
+
+
 video{
   width:          100%;
   max-width:      400px;
   margin:         auto;
   mix-blend-mode: plus-lighter;
 }
+
+
+.intro,
+.chapter,
+.register{
+  max-width:      375px;
+  margin:         auto;
+}
+
+/* Forms */
+
+form.register{
+  text-align: center;
+}
+
+form.register .label,
+form.register .input{
+  display: block;
+  text-align: center;
+  margin: auto;
+} 
 
 
 /* Buttons */
@@ -88,6 +124,9 @@ video{
 }
 
 
+
+
+
 /* Vertical rhythm */
 
 .intro + .h3{
@@ -105,6 +144,16 @@ video{
 .h2 + .cta{
   margin-top: 1.5rem;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 800px){
