@@ -91,7 +91,8 @@
 
 .h1, .h2, .h3 {
   /*font-family: 'tiempos-headline-regular', sans-serif;*/
-  font-family: 'tiempos-text-semibold', sans-serif;
+  /*font-family: 'tiempos-text-semibold', sans-serif;*/
+  font-family: 'tiempos-text-regular', sans-serif;
 }
 
 .copy {
@@ -107,7 +108,8 @@
 }
 
 .label-section{
-  font-family: 'tiempos-text-semibold', sans-serif;
+  /*font-family: 'tiempos-text-semibold', sans-serif;*/
+  font-family: 'tiempos-text-regular', sans-serif;
   font-variant-caps: all-small-caps;
 }
 
